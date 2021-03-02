@@ -52,7 +52,7 @@ function setup(){
 }
 
 function draw(){
-    if(backgroundImg)
+    if(backgroundImg){
         background(backgroundImg);
     
         noStroke();
@@ -83,7 +83,7 @@ function draw(){
     platform.display();
     //log6.display();
     slingshot.display();
-        
+    }  
 }
 
 function mouseDragged(){
